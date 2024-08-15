@@ -9,10 +9,10 @@ terminal.question("Qual é a sua idade?", function (valor) {
 
     if(idade < 18){
         console.log("Menor de idade.");
-    } else if(idade => 18 && idade <60){
+    } else if(idade >= 18 && idade < 60){
         console.log("Adulto.");
     } else{
-        console.log("Idoso.")
+        console.log("Idoso.");
     }
 
     terminal.close();
